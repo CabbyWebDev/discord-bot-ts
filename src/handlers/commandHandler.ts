@@ -26,7 +26,11 @@ async function getCommandFiles(bot: Client, dirPath: string) {
         continue;
       }
 
-      if (!entry.isFile() || !entry.name.endsWith('.ts')) continue;
+      if (
+        !entry.isFile() ||
+        !(entry.name.endsWith('.ts') || entry.name.endsWith('.js'))
+      )
+        continue;
 
       const command = (await import(filePath)).default as CommandFileType;
 
