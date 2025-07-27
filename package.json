@@ -1,5 +1,5 @@
 {
-  "name": "discord-bot",
+  "name": "discord-bot-ts",
   "module": "src/bot.ts",
   "type": "module",
   "private": true,
