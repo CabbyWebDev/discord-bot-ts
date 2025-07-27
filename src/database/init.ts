@@ -3,10 +3,10 @@ import { createBansTable } from './migrations';
 import path from 'path';
 import fs from 'fs';
 
-const dbPath = path.resolve(__dirname, './db/bans.sqlite');
-fs.mkdirSync(path.dirname(dbPath), { recursive: true });
+const dbDir = path.resolve(__dirname, './db/bans.sqlite');
+fs.mkdirSync(path.dirname(dbDir), { recursive: true });
 
-const db = new Database(dbPath);
+const db = new Database(dbDir);
 
 createBansTable(db);
 
