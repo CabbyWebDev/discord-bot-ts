@@ -102,7 +102,7 @@ $ bun build
 
 ## 🧑‍💻 Author
 
-[`CabbyWebDev`](https://github.com/CabbyWebDev)
+[CabbyWebDev](https://github.com/CabbyWebDev)
 
 ## 📄 License
 
