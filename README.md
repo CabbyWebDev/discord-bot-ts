@@ -5,7 +5,7 @@
 - Slash command support (Discord Interactions API)
 - Modular command and event handlers
 - Ban system using fast and light `bun:sqlite` database with automated unbans
-- Built with [Bun](https://bun.sh/) for fast run time and tooling
+- Built with [Bun](https://bun.sh/) for fast runtime and tooling
 - Type-safe and maintainable development with TypeScript
 - Clean and intuitive folder structure
 - Easy setup and minimal configuration required
