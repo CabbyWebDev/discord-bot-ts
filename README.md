@@ -17,9 +17,8 @@
 ## 📦 Requirements
 
 - [Bun](https://bun.sh/) - Install latest version of bun.
-- [Discord Developer Portal](https://discord.com/developers/applications) - Create Discrod bot
 
-## 🚀 Getting Started
+## ⚙️ Configuration
 
 ### 1. Clone the repository
 
@@ -70,7 +69,7 @@ https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=8&inte
 }
 ```
 
-## ⚡ Usage
+## ⚡ Running the bot
 
 ### Run the scripts below in the given order.
 
