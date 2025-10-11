@@ -16,8 +16,8 @@
 
 ## 📦 Requirements
 
-- [Bun](https://bun.sh/) - install latest version
-- [Discord Developer Portal](https://discord.com/developers/applications) - bot token
+- [Bun](https://bun.sh/) - Install latest version of bun.
+- [Discord Developer Portal](https://discord.com/developers/applications) - Create Discrod bot
 
 ## 🚀 Getting Started
 
