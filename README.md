@@ -2,17 +2,17 @@
 
 ## ✨ Features
 
-- Slash command support (Discord Interactions API)
-- Modular command and event handlers
-- Ban system using fast and light `bun:sqlite` database with automated unbans
-- Built with [Bun](https://bun.sh/) for fast runtime and tooling
-- Type-safe and maintainable development with TypeScript
-- Clean and intuitive folder structure
-- Easy setup and minimal configuration required
-- Simple built-in logger for console and file output and error tracking
-- Embed logger for Discord channels
-- YouTube videos and Twitch streams notifier
-- CS2 update notifier
+- Slash command support (Discord Interactions API).
+- Modular command and event handlers.
+- Ban system using fast and light `bun:sqlite` database with automated unbans.
+- Built with [Bun](https://bun.sh/) for fast runtime and tooling.
+- Type-safe and maintainable development with TypeScript.
+- Clean and intuitive folder structure.
+- Easy setup and minimal configuration required.
+- Simple built-in logger for console and file output and error tracking.
+- Embed logger for Discord channels.
+- YouTube videos and Twitch streams notifier.
+- CS2 update notifier.
 
 ## 📦 Requirements
 
@@ -20,7 +20,7 @@
 
 ## ⚙️ Configuration
 
-### 1. Clone the repository
+### 1. Clone the repository.
 
 ```bash
 $ git clone https://github.com/CabbyWebDev/discord-bot-ts.git
@@ -53,7 +53,7 @@ $ node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=8&integration_type=0&scope=bot+applications.commands
 ```
 
-### 6. Modify config/env.ts by editing the fields as shown below.
+### 6. Modify `config/env.ts` by editing the fields as shown below.
 
 ```ts
 {
